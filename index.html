@@ -356,7 +356,29 @@
 	<!-- Custom Theme JavaScript -->
 	<script src="js/freelancer.js"></script>
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAEhwhop2Vf9wbgebD9KQLuqx7Rdg5xpDM",
+    authDomain: "fir-practice-faeaa.firebaseapp.com",
+    databaseURL: "https://fir-practice-faeaa.firebaseio.com",
+    projectId: "fir-practice-faeaa",
+    storageBucket: "fir-practice-faeaa.appspot.com",
+    messagingSenderId: "846115339453",
+    appId: "1:846115339453:web:68a15c42a9c5b47dd8cbd4",
+    measurementId: "G-0HKV6TH2Q1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 
 </body>
 </html>
